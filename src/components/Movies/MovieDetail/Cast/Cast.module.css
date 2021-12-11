@@ -1,0 +1,40 @@
+.Cast {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.castList {
+    margin-top: 40px;
+    width: 1350px;
+    overflow-x: auto;
+    display: flex;
+}
+
+.CastDetail {
+    margin-right: 20px;
+    border-left: 1px solid rgba(233, 233, 233, 0.933);
+    border-bottom: 1px solid rgba(233, 233, 233, 0.933);
+    border-right: 1px solid rgba(233, 233, 233, 0.933);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.CastDetail > img {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.castNames{
+    padding: 10px;
+} 
+.castNames> h2{
+    font-weight: bold;
+    font-size: 16   px;
+}

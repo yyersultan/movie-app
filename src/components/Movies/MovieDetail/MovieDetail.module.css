@@ -1,0 +1,93 @@
+.movieTitle {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.movieInfo {
+    display: flex;
+}
+.movieImg {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.movieDetails {
+    margin-left: 30px;
+}
+
+.movieName {
+    font-weight: bold;
+    font-size: 37px;
+    color: #fff;
+}
+
+.movieD_genre {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+}
+.genres {
+    font-size: 18px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.runTime {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.movieRate {
+    color: #fff;
+    display: flex;  
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Progress {
+    color: white;
+    font-size: 18px;
+}
+
+.userRate {
+    font-size: 18px;
+    font-weight: bold;
+    width: 50px;
+    margin-left: 10px;
+      
+}
+.btn_Gr {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+
+.overview {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.description {
+    font-size: 18px;
+    width: 1000px;
+}
+.movieCrew {
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Crew {
+    width: 30%;
+    margin-bottom: 18px;
+}
+.Crew > h3 {
+    color: #fff;
+    margin-bottom: 1px;
+    font-weight: bold;
+}

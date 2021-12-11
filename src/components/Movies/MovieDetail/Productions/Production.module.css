@@ -1,0 +1,20 @@
+.Productions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center ;
+    margin-top: 30px;
+}
+
+
+.Productions >div {
+    margin-right: 80px;
+}
+.Productions >div:last-child {
+    margin-right: 0;
+}
+
+.ProductionDetial > img {
+    width: 100px;
+    height: 8   0px;
+}
